@@ -3,7 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Workshop 1</title>
   </head>
-  <body></body>
+  <body class="
+    bg-[#3f3f46] 
+    h-screen
+    flex justify-center items-center
+    ">
+    <!-- Card -->
+    <div class="
+      bg-[#27272a] 
+      w-1/2 aspect-[7/3] rounded-xl p-2.5
+      
+      flex
+      ">
+      <img src="images/image.jpg" alt="" class="
+        rounded-l-xl
+      "/>
+      <div class="
+        text-neutral-50
+        self-center
+        p-7
+      ">
+        <h2 class="text-lg">Get diet and fitness tips in your inbox</h2>
+        <p class="text-sm py-4">Eat better and excercise better. Sign up for the Diet&Fitness newsletter.</p>
+        <div class="flex">
+          <input type="text" placeholder="Enter your email address" class="
+            text-sm p-2 bg-[#27272a] border border-gray-600 rounded
+          "/>
+          <button type="submit" class="
+            bg-lime-600 text-slate-900 text-sm p-2 ml-2 rounded
+          ">
+          Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
