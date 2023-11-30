@@ -3,7 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Workshop 2</title>
   </head>
-  <body></body>
+  <body class="flex flex-col m-24">
+    <header>
+      <nav class="flex justify-end gap-8 mb-8">
+        <div>Vector</div>
+        <div>Illustrations</div>
+        <div>Images</div>
+        <div>Icons</div>
+      </nav>
+    </header>
+    <!-- Search and Upload -->
+    <div class="flex my-8">
+      <div class="flex grow">
+        <input type="search" aria-label="Search" placeholder="Search" class="w-1/2 border-b py-4 pl-4"/>
+        <span class="material-symbols-outlined text-slate-200 relative -left-6 py-4">
+          search
+        </span>
+      </div>
+      <button type="button" class="bg-black text-white px-8 rounded-lg">Upload</button>
+    </div>  
+    <!-- Gallery Row 1 -->
+    <div id="row1" class="flex flex-nowrap gap-3">
+      <img src="images/image1.jpg" alt="" class="w-2/6"/>
+      <img src="images/image2.jpg" alt="" class="w-2/6"/>
+      <img src="images/image3.jpg" alt="" class="w-2/6"/>
+    </div>
+    <!-- Gallery Row 2 -->
+    <div id="row2" class="flex flex-nowrap gap-3 pt-3">
+      <img src="images/image4.jpg" alt="" class="w-2/6"/>
+      <img src="images/image5.jpg" alt="" class="w-2/6"/>
+      <img src="images/image6.jpg" alt="" class="w-2/6"/>
+    </div>
+  </body>
 </html>
